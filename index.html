@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0d1218">
+  <meta name="description" content="Un parcours de 50 chapitres en philosophie, religion, histoire et culture classique.">
+  <title>L'Atelier</title>
+  <style>
+    :root{color-scheme:light;--paper:#f6f3ec;--card:#fffefa;--ink:#20221f;--muted:#72746d;--line:#e5e1d7;--green:#315a49;--green-dark:#234437;--green-pale:#e8efe9;--gold:#b38a43;--red:#a34f43;--red-pale:#f8eae6;--shadow:0 14px 40px rgba(42,46,37,.07)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}button,input,select{font:inherit}button{cursor:pointer}.shell{max-width:1020px;margin:0 auto;padding:0 24px 56px}.topbar{display:flex;align-items:center;justify-content:space-between;padding:24px 0 18px;border-bottom:1px solid var(--line)}.brand{color:var(--ink);font-size:16px;font-weight:650;text-decoration:none}.layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:36px;padding-top:34px}aside{padding-top:8px}.nav-label{margin:0 0 10px 12px;color:#92938c;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.nav-button{display:flex;width:100%;align-items:center;gap:11px;border:0;border-radius:10px;padding:11px 12px;color:#555951;background:transparent;text-align:left}.nav-button:hover,.nav-button.active{background:#eae7de;color:var(--green-dark)}.nav-icon{width:20px;text-align:center;font-size:16px}main{min-width:0}.view.hidden,.hidden{display:none!important}.eyebrow{margin:0 0 8px;color:var(--muted);font-size:13px;font-weight:500}h1,h2,h3{font-family:inherit;font-weight:650;letter-spacing:-.025em}h1{margin:0;font-size:clamp(34px,5vw,51px);line-height:1.08}.lede{max-width:650px;margin:10px 0 20px;color:var(--muted);font-size:14px}.hero-row{display:flex;align-items:flex-end;justify-content:space-between;gap:20px}.streak{display:flex;align-items:center;gap:9px;padding:10px 13px;border:1px solid var(--line);border-radius:12px;background:var(--card);white-space:nowrap}.streak-num{color:var(--green);font-size:20px;font-weight:700}.streak-label{color:var(--muted);font-size:11px;line-height:1.25}.chapter-card{overflow:hidden;margin-top:18px;border:1px solid var(--line);border-radius:18px;background:var(--card);box-shadow:var(--shadow)}.chapter-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:19px 23px;border-bottom:1px solid var(--line)}.chapter-kicker{color:var(--muted);font-size:12px}.chapter-head strong{display:block;margin-top:2px;font-size:15px;font-weight:650}.pill{padding:6px 10px;border-radius:999px;background:var(--green-pale);color:var(--green-dark);font-size:11px;font-weight:700}.tabs{display:flex;gap:5px;padding:0 22px;border-bottom:1px solid var(--line)}.tab{position:relative;border:0;padding:14px 12px 13px;color:var(--muted);background:transparent;font-size:13px}.tab.active{color:var(--green-dark);font-weight:700}.tab.active:after{position:absolute;right:11px;bottom:-1px;left:11px;height:2px;background:var(--green);content:""}.panel{padding:26px clamp(20px,4vw,38px) 32px}.article-meta{display:flex;gap:12px;align-items:center;color:var(--muted);font-size:12px;flex-wrap:wrap}.article-meta span+span:before{margin-right:12px;color:#c3bfb5;content:"·"}.article-title{margin:12px 0 18px;font-size:clamp(27px,4vw,36px);line-height:1.15}.article-copy{max-width:690px;color:#3d403a;font-size:16px;line-height:1.75}.article-copy p{margin:0 0 16px}.pullquote{margin:23px 0;padding:3px 0 3px 18px;border-left:2px solid var(--gold);color:var(--green-dark);font-size:18px;font-weight:600;line-height:1.45}.source{margin-top:20px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}a{color:var(--green-dark)}.action-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:24px}.button{display:inline-flex;justify-content:center;align-items:center;gap:8px;min-height:45px;padding:0 18px;border:1px solid transparent;border-radius:11px;background:var(--green);color:white;font-weight:700;transition:.16s ease}.button:hover{background:var(--green-dark);transform:translateY(-1px)}.button.secondary{border-color:var(--line);background:var(--card);color:var(--ink)}.button.secondary:hover{border-color:#c7c3b9;background:#f9f7f1}.button:disabled{opacity:.48;cursor:not-allowed;transform:none}.small-note{color:var(--muted);font-size:12px}.quiz-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:17px}.progress-wrap{flex:1}.progress-label{display:flex;justify-content:space-between;margin-bottom:7px;color:var(--muted);font-size:11px}.progress-track{height:5px;overflow:hidden;border-radius:99px;background:#ece9e1}.progress-fill{width:10%;height:100%;border-radius:inherit;background:var(--green);transition:width .2s}.live-score{min-width:74px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:#fbfaf6;text-align:center}.live-score b{display:block;color:var(--green-dark);font-size:18px;font-weight:700}.live-score span{color:var(--muted);font-size:10px}.question-card{padding:clamp(18px,4vw,27px);border:1px solid var(--line);border-radius:15px;background:#fffefa}.question-number{margin:0 0 8px;color:var(--gold);font-size:11px;font-weight:750;letter-spacing:.1em;text-transform:uppercase}.question-text{margin:0 0 18px;font-size:clamp(19px,3vw,22px);font-weight:600;line-height:1.4}.options{display:grid;gap:9px}.option{display:flex;width:100%;align-items:flex-start;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:white;color:#42453f;text-align:left;transition:.15s ease}.option:hover{border-color:#9cac9f;background:#fbfcfa}.option.selected{border-color:var(--green);background:var(--green-pale);color:var(--green-dark)}.option.correct{border-color:#80a18b;background:#eaf3eb}.option.wrong{border-color:#d49b8e;background:var(--red-pale)}.option:disabled{cursor:default}.option-letter{display:grid;width:23px;height:23px;flex:0 0 23px;place-items:center;border:1px solid #d9d8d0;border-radius:50%;color:#666a63;font-size:11px;font-weight:700}.option.selected .option-letter{border-color:var(--green);background:var(--green);color:white}.feedback{display:none;margin-top:15px;padding:12px 14px;border-radius:10px;font-size:13px}.feedback.show{display:block}.feedback.good{background:var(--green-pale);color:var(--green-dark)}.feedback.bad{background:var(--red-pale);color:#7e382f}.quiz-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:17px}.result{display:none;margin-top:20px;padding:24px;border:1px solid var(--line);border-radius:15px;background:#f8f6ef;text-align:center}.result.show{display:block}.result-icon{font-size:28px}.result h3{margin:5px 0 2px;font-size:28px}.result-score{margin:4px 0 10px;color:var(--green);font-size:36px;font-weight:700}.result p{max-width:430px;margin:0 auto 17px;color:var(--muted);font-size:14px}.archive-tools{display:flex;gap:10px;margin:18px 0}.archive-tools input,.archive-tools select{min-height:44px;padding:0 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}.archive-tools input{flex:1;min-width:120px}.archive-list{display:grid;gap:10px}.archive-item{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:15px 16px;border:1px solid var(--line);border-radius:12px;background:white;text-align:left}.archive-item:hover{border-color:#a7b4a9}.archive-copy{display:block;flex:1;min-width:0}.archive-item small{display:block;margin-bottom:5px;color:var(--muted);font-size:11px}.archive-item strong{display:block!important;margin-top:0;color:#20221f!important;font-size:16px;font-weight:650;line-height:1.35;visibility:visible;opacity:1}.archive-arrow{color:var(--green);font-size:20px}.archive-status{color:var(--muted);font-size:11px;white-space:nowrap}.theme-grid{display:block;margin-top:20px;border-top:1px solid var(--line)}.theme-group{min-width:0;border-bottom:1px solid var(--line)}.theme-card{display:grid;width:100%;grid-template-columns:1fr auto;align-items:center;gap:4px 10px;padding:16px 2px;border:0;border-radius:0;background:transparent;text-align:left}.theme-card strong{display:block;margin:0;color:var(--ink);font-size:17px;font-weight:650}.theme-card>span{color:var(--muted);font-size:12px;text-align:right}.mini-track{grid-column:1/-1;height:4px;margin-top:7px;overflow:hidden;border-radius:99px;background:#ece9e1}.mini-fill{height:100%;background:var(--green)}.section-title{margin:30px 0 12px;font-size:20px}.back-link{margin:0 0 12px;padding:0;border:0;background:none;color:var(--green-dark);font-size:13px;font-weight:650}.footer{display:flex;justify-content:space-between;gap:16px;margin-top:18px;color:#8a8b84;font-size:11px}
+    @media(max-width:720px){.shell{padding:0 16px 34px}.topbar{padding-top:max(16px,env(safe-area-inset-top))}.layout{display:block;padding-top:22px}aside{display:flex;gap:5px;margin:0 0 23px;padding:0;overflow-x:auto}.nav-label{display:none}.nav-button{width:auto;flex:0 0 auto;padding:9px 11px;font-size:12px}.nav-icon{width:auto}.hero-row{align-items:flex-start}.streak{padding:8px 9px}.streak-label{display:none}.chapter-head{padding:16px}.tabs{padding:0 11px}.tab{padding-right:10px;padding-left:10px}.panel{padding:20px 16px 24px}.article-copy{font-size:15.5px}.action-row{align-items:flex-start;flex-direction:column}.action-row .button{width:100%}.quiz-actions .button{min-width:116px;padding:0 12px}.footer{flex-direction:column;gap:4px}.theme-grid{grid-template-columns:1fr}.archive-tools{flex-direction:column}}
+    .remember{max-width:690px;margin:22px 0;padding:15px 18px;border:1px solid var(--line);border-radius:12px;background:#f8f6ef}.remember strong{display:block;margin-bottom:8px;color:var(--green-dark);font-size:13px}.remember ul{margin:0;padding-left:18px;color:#3d403a;font-size:13px;line-height:1.6}.remember li+li{margin-top:5px}
+    .theme-group{min-width:0}.theme-chapters{margin:0;border:0;border-radius:0;background:transparent}.theme-chapters summary{padding:7px 2px 12px;color:var(--green-dark);font-size:12px;font-weight:650;cursor:pointer}.theme-chapter-list{display:grid;gap:0;padding:0 0 10px}.theme-chapter-link{width:100%;padding:10px 4px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;color:var(--ink);text-align:left;font-size:13px;line-height:1.4}.theme-chapter-link:hover{background:var(--green-pale);color:var(--green-dark)}.theme-chapter-link span{display:block;margin-top:2px;color:var(--muted);font-size:10px}
+
+    :root{color-scheme:dark;--paper:#0d1218;--card:#151d25;--ink:#edf1ef;--muted:#a2adb7;--line:#29343f;--green:#83d2b5;--green-dark:#b0ebd5;--green-pale:#19332e;--gold:#e6bd78;--red:#e49a8f;--red-pale:#3a2527;--shadow:0 18px 48px rgba(0,0,0,.28)}
+    html{background:var(--paper)}body{background:radial-gradient(ellipse at 78% 4%,rgba(70,122,111,.13),transparent 32rem),radial-gradient(ellipse at 5% 40%,rgba(106,83,54,.09),transparent 28rem),linear-gradient(155deg,#0d1218 0%,#10171e 58%,#0d1319 100%);color:var(--ink)}
+    body:before{position:fixed;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px);background-size:100% 36px;pointer-events:none;content:""}
+    .shell{position:relative}.topbar{border-color:var(--line)}.brand{color:var(--ink)}.nav-label{color:#788692}.nav-button{color:#aeb9c1;transition:background .2s ease,color .2s ease,transform .2s ease}.nav-button:hover{background:#1a252c;color:#eaf4ef}.nav-button.active{background:#1b302d;color:#a6e5ce}.nav-button:active{transform:scale(.985)}
+    h1,h2,h3{color:#f1f3f0}.chapter-card{background:linear-gradient(145deg,rgba(23,32,40,.97),rgba(18,25,32,.98));border-color:#2b3842;box-shadow:var(--shadow),inset 0 1px rgba(255,255,255,.035)}.chapter-head{border-color:var(--line)}.chapter-kicker,.article-meta,.small-note,.lede{color:var(--muted)}.pill{background:#19332e;color:#a9e7d0}
+    .tabs{border-color:var(--line)}.tab{color:#99a6b0;transition:color .2s ease}.tab.active{color:#a9e7d0}.tab.active:after{background:#83d2b5;box-shadow:0 0 12px rgba(131,210,181,.35)}.article-copy{color:#d2d9d7}.article-copy strong{color:#f1f4f1}.article-title{color:#f1f3f0}.pullquote{color:#b4ead5;border-color:var(--gold)}.source{border-color:var(--line);color:var(--muted)}a{color:#a9e7d0;text-decoration-thickness:1px;text-underline-offset:3px}
+    .button{background:#83d2b5;color:#102019;box-shadow:0 5px 16px rgba(74,160,133,.16);transition:background .2s ease,transform .2s ease,box-shadow .2s ease}.button:hover{background:#a0e3ca;transform:translateY(-2px);box-shadow:0 8px 20px rgba(74,160,133,.23)}.button:active{transform:translateY(0) scale(.985)}.button.secondary{background:#1b252d;color:#e5ece8;border-color:#34424c;box-shadow:none}.button.secondary:hover{background:#222f37;border-color:#4d665f}
+    .progress-track,.mini-track{background:#29343d}.progress-fill,.mini-fill{background:linear-gradient(90deg,#65b997,#a5e3c9);box-shadow:0 0 12px rgba(131,210,181,.22)}.live-score{background:#182128;border-color:#2e3c46}.live-score b,.streak-num{color:#a5e3c9}.streak{background:#151e25;border-color:#2b3942}.question-card{background:#171f27;border-color:#2b3943}.question-number{color:#e6bd78}.question-text{color:#eef2ef}.option{background:#1b252d;border-color:#303e48;color:#dbe2df;transition:background .18s ease,border-color .18s ease,transform .18s ease}.option:hover{background:#202e34;border-color:#648e7f;transform:translateX(2px)}.option.selected{background:#1b3831;border-color:#83d2b5;color:#d8f4e9}.option.correct{background:#19352d;border-color:#62b894;color:#d6f4e7}.option.wrong{background:#392528;border-color:#c77f75;color:#ffe3de}.option-letter{border-color:#495761;color:#b7c2c8}.option.selected .option-letter{border-color:#83d2b5;background:#83d2b5;color:#102019}.feedback.good{background:#19352d;color:#d6f4e7}.feedback.bad{background:#392528;color:#ffe3de}.result{background:linear-gradient(145deg,#192722,#172129);border-color:#33463f}.result-score{color:#9de0c6}.result p{color:var(--muted)}
+    .archive-tools input,.archive-tools select{background:#151e25;border-color:#34414a;color:var(--ink)}.archive-tools input::placeholder{color:#83909a}.archive-item{background:linear-gradient(145deg,#172028,#141b22);border-color:#2b3740;color:var(--ink);transition:transform .2s ease,border-color .2s ease,background .2s ease}.archive-item:hover{border-color:#52776a;background:#1a272c;transform:translateY(-1px)}.archive-item strong{color:#eff3f0!important}.archive-item small,.archive-status{color:#a2adb7}.archive-arrow{color:#9bdcc2}.theme-grid{border-color:var(--line)}.theme-group{border-color:var(--line)}.theme-card strong{color:#eef2ef}.theme-card>span{color:var(--muted)}.theme-card:hover strong{color:#a9e7d0}.theme-chapters summary{color:#a9e7d0}.theme-chapter-link{color:#d7dfdc;border-color:#26333b;transition:background .18s ease,color .18s ease,padding-left .18s ease}.theme-chapter-link:hover{background:#182722;color:#a9e7d0;padding-left:9px}.theme-chapter-link span{color:#9aa7b0}.remember{background:#18241f;border-color:#34473e}.remember strong{color:#a9e7d0}.remember ul{color:#d3ddda}.back-link{color:#a9e7d0}.footer{color:#83909a}
+    .view:not(.hidden){animation:soft-enter .28s ease both}.chapter-card,.theme-group,.archive-item,.question-card{animation:soft-enter .3s ease both}@keyframes soft-enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:720px){.shell{padding-bottom:28px}.layout{padding-top:18px}.chapter-card{border-radius:15px}.chapter-head{background:rgba(255,255,255,.015)}.archive-item{padding:14px 13px}.archive-item strong{font-size:16px}.theme-card{padding:14px 2px}.nav-button{border:1px solid transparent}.nav-button.active{border-color:#345047}.action-row .button{min-height:48px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+    /* Palette plus neutre, animations et mise en page conservées. */
+    :root{--paper:#121516;--card:#1b1f20;--ink:#e6e8e5;--muted:#a5aaa6;--line:#343a39;--green:#9aaa9f;--green-dark:#c4cec8;--green-pale:#272e2b;--gold:#b9b09b;--red:#c29a94;--red-pale:#342c2b;--shadow:0 18px 48px rgba(0,0,0,.25)}
+    body{background:radial-gradient(ellipse at 78% 4%,rgba(218,226,221,.035),transparent 32rem),radial-gradient(ellipse at 5% 40%,rgba(218,226,221,.018),transparent 28rem),linear-gradient(155deg,#121516 0%,#171a1b 58%,#121516 100%)}
+    body:before{background-image:linear-gradient(rgba(255,255,255,.008) 1px,transparent 1px)}
+    .nav-button:hover{background:#222726;color:#e2e6e2}.nav-button.active{background:#292f2c;color:#d1d8d2}.pill{background:#292f2c;color:#cbd4cd}.tab.active{color:#c4cec8}.tab.active:after{background:#9aaa9f;box-shadow:0 0 8px rgba(154,170,159,.16)}
+    .button{background:#718078;color:#f2f3f0;box-shadow:0 4px 12px rgba(0,0,0,.18)}.button:hover{background:#829188;box-shadow:0 6px 14px rgba(0,0,0,.22)}.button.secondary{background:#242929;color:#e4e7e4;border-color:#414846}.button.secondary:hover{background:#2b3130;border-color:#555e59}
+    .progress-track,.mini-track{background:#303635}.progress-fill,.mini-fill{background:#98a79d;box-shadow:none}.live-score b,.streak-num{color:#c4cec8}.question-number{color:#b9b09b}.option{background:#222727;border-color:#3a4240;color:#d9ddda}.option:hover{background:#292f2d;border-color:#68736c}.option.selected{background:#303833;border-color:#8d9d92;color:#e4e8e4}.option.correct{background:#29352f;border-color:#758d7d;color:#e1e9e2}.option.wrong{background:#392e2d;border-color:#8f6b66;color:#f0e3e0}.option.selected .option-letter{border-color:#9aaa9f;background:#9aaa9f;color:#171b19}.feedback.good{background:#29352f;color:#e1e9e2}.feedback.bad{background:#392e2d;color:#f0e3e0}.result{background:linear-gradient(145deg,#202624,#1b2021);border-color:#3b4540}.result-score{color:#c4cec8}
+    .archive-item{background:linear-gradient(145deg,#1c2122,#191d1e);border-color:#343b39}.archive-item:hover{border-color:#59645e;background:#212625}.archive-arrow{color:#aeb9b1}.theme-chapters summary,.theme-chapter-link:hover{color:#c4cec8}.theme-chapter-link:hover{background:#242a27}.remember{background:#202523;border-color:#3d4741}.remember strong,.back-link{color:#c4cec8}
+
+    /* Palette inspirée de l’interface sombre d’Apple : neutres, accent bleu unique. */
+    :root{--paper:#000;--card:#1c1c1e;--ink:#f5f5f7;--muted:#a1a1a6;--line:#38383a;--green:#0a84ff;--green-dark:#64a7ff;--green-pale:#1b2938;--gold:#a1a1a6;--red:#ff6961;--red-pale:#382322;--shadow:0 18px 48px rgba(0,0,0,.42)}
+    html{background:#000}body{background:linear-gradient(180deg,#000 0%,#0b0b0d 46%,#111113 100%)}body:before{background-image:none}
+    .nav-label{color:#8e8e93}.nav-button{color:#b8b8bd}.nav-button:hover{background:#232326;color:#f5f5f7}.nav-button.active{background:#2c2c2e;color:#f5f5f7}.nav-button.active .nav-icon{color:#64a7ff}
+    h1,h2,h3,.article-title,.question-text{color:#f5f5f7}.chapter-card,.question-card{background:#1c1c1e;border-color:#38383a;box-shadow:0 12px 34px rgba(0,0,0,.24)}.chapter-head,.tabs,.source{border-color:#38383a}.chapter-head{background:#1c1c1e}.chapter-kicker,.article-meta,.small-note,.lede{color:#a1a1a6}.pill{background:#2c2c2e;color:#d1d1d6}.tab{color:#98989d}.tab.active{color:#f5f5f7}.tab.active:after{background:#0a84ff;box-shadow:none}.article-copy{color:#d1d1d6}.article-copy strong{color:#f5f5f7}.pullquote{color:#d1d1d6;border-color:#0a84ff}.source{color:#a1a1a6}a{color:#64a7ff}
+    .button{background:#0a84ff;color:#fff;box-shadow:none}.button:hover{background:#168cff;box-shadow:0 4px 12px rgba(10,132,255,.16)}.button.secondary{background:#2c2c2e;border-color:#38383a;color:#f5f5f7}.button.secondary:hover{background:#3a3a3c;border-color:#545458}
+    .progress-track,.mini-track{background:#38383a}.progress-fill,.mini-fill{background:#0a84ff;box-shadow:none}.streak,.live-score{background:#1c1c1e;border-color:#38383a}.streak-num,.live-score b{color:#64a7ff}.question-number{color:#a1a1a6}.option{background:#2c2c2e;border-color:#3a3a3c;color:#f5f5f7}.option:hover{background:#353538;border-color:#636366}.option.selected{background:#1b2938;border-color:#0a84ff;color:#e4f1ff}.option.correct{background:#1b3022;border-color:#32d74b;color:#e5f8e9}.option.wrong{background:#382322;border-color:#ff6961;color:#ffe8e6}.option-letter{border-color:#636366;color:#d1d1d6}.option.selected .option-letter{border-color:#0a84ff;background:#0a84ff;color:white}.feedback.good{background:#1b3022;color:#e5f8e9}.feedback.bad{background:#382322;color:#ffe8e6}.result{background:#1c1c1e;border-color:#38383a}.result-score{color:#64a7ff}.result p{color:#a1a1a6}
+    .archive-tools input,.archive-tools select{background:#1c1c1e;border-color:#38383a;color:#f5f5f7}.archive-tools input::placeholder{color:#8e8e93}.archive-item{background:#1c1c1e;border-color:#38383a;color:#f5f5f7}.archive-item:hover{background:#242426;border-color:#545458;transform:translateY(-1px)}.archive-item strong{color:#f5f5f7!important}.archive-item small,.archive-status{color:#a1a1a6}.archive-arrow{color:#64a7ff}.theme-grid,.theme-group{border-color:#38383a}.theme-card strong{color:#f5f5f7}.theme-card>span{color:#a1a1a6}.theme-card:hover strong,.theme-chapters summary{color:#64a7ff}.theme-chapter-link{color:#d1d1d6;border-color:#38383a}.theme-chapter-link:hover{background:#242426;color:#64a7ff}.theme-chapter-link span{color:#a1a1a6}.remember{background:#1c1c1e;border-color:#38383a}.remember strong,.back-link{color:#64a7ff}.remember ul{color:#d1d1d6}.footer{color:#8e8e93}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar"><a class="brand" href="#" aria-label="L'Atelier, accueil" id="brand-home">L'Atelier</a></header>
+    <div class="layout">
+      <aside aria-label="Navigation">
+        <p class="nav-label">Parcours</p>
+        <button class="nav-button active" data-view="home"><span class="nav-icon">◷</span>Mes thèmes</button>
+        <button class="nav-button" data-view="library"><span class="nav-icon">▤</span>Bibliothèque</button>
+        <button class="nav-button" data-view="progress"><span class="nav-icon">✳</span>Progression</button>
+      </aside>
+      <main>
+        <section id="view-home" class="view">
+          <div id="dashboard">
+            <div class="hero-row"><div><p class="eyebrow">50 chapitres</p><h1>Mes thèmes</h1></div><div class="streak"><span class="streak-num" id="overall-progress">0/50</span><span class="streak-label">chapitres<br>validés</span></div></div>
+            <p class="lede">Choisis un thème et avance à ton rythme.</p>
+            <div class="theme-grid" id="home-themes"></div>
+            <h2 class="section-title">À continuer</h2><div class="archive-list" id="continue-list"></div>
+          </div>
+          <div id="lesson-view" class="hidden">
+            <button class="back-link" id="back-home">← Mes thèmes</button>
+            <div class="hero-row"><div><p class="eyebrow" id="lesson-eyebrow"></p><h1 id="lesson-heading"></h1></div><div class="streak"><span class="streak-num" id="lesson-best">—</span><span class="streak-label">meilleur<br>score</span></div></div>
+            <article class="chapter-card">
+              <div class="chapter-head"><div><span class="chapter-kicker" id="chapter-kicker"></span><strong id="chapter-title"></strong></div><span class="pill" id="chapter-status"></span></div>
+              <div class="tabs" role="tablist"><button class="tab active" data-tab="article" role="tab">La lecture</button><button class="tab" data-tab="quiz" role="tab">Le QCM · 10 questions</button></div>
+              <section id="article-panel" class="panel" role="tabpanel">
+                <div class="article-meta"><span id="article-theme"></span><span>Lecture</span></div><h2 class="article-title" id="article-title"></h2><div class="article-copy" id="article-copy"></div><div class="remember"><strong>À retenir</strong><ul id="memory-points"></ul></div>
+                <div class="source" id="recommendation"></div>
+                <div class="action-row"><span class="small-note">Bonne réponse : +2 · Mauvaise réponse : −1 · Sans réponse : 0</span><button class="button" id="start-quiz">Faire le QCM <span aria-hidden="true">→</span></button></div>
+              </section>
+              <section id="quiz-panel" class="panel hidden" role="tabpanel" aria-live="polite">
+                <div id="quiz-active">
+                  <div class="quiz-top"><div class="progress-wrap"><div class="progress-label"><span id="progress-label"></span><span id="answered-label"></span></div><div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div></div><div class="live-score"><b id="live-score">0</b><span>points</span></div></div>
+                  <div class="question-card"><p id="question-number" class="question-number"></p><h3 id="question-text" class="question-text"></h3><div id="options" class="options"></div><div id="feedback" class="feedback"></div></div>
+                  <div class="quiz-actions"><button class="button secondary" id="prev-question">← Précédente</button><button class="button" id="next-question">Suivante →</button></div>
+                  <div class="action-row"><span class="small-note">Seuil de validation : 11/20</span><button class="button" id="finish-quiz">Terminer le chapitre</button></div>
+                </div>
+                <div id="quiz-result" class="result" aria-live="polite"></div>
+              </section>
+            </article>
+          </div>
+        </section>
+        <section id="view-library" class="view hidden">
+          <p class="eyebrow">50 chapitres</p><h1>Bibliothèque</h1>
+          <div class="archive-tools"><input id="search-chapters" type="search" placeholder="Rechercher un chapitre" aria-label="Rechercher un chapitre"><select id="filter-theme" aria-label="Filtrer par thème"><option value="all">Tous les thèmes</option></select></div>
+          <div class="archive-list" id="library-list"></div>
+        </section>
+        <section id="view-progress" class="view hidden">
+          <p class="eyebrow">Tes résultats</p><h1>Progression</h1><p class="lede" id="progress-total"></p><div class="archive-list" id="progress-themes"></div>
+        </section>
+      </main>
+    </div>
+    <div class="footer"><span>Les scores sont enregistrés sur cet appareil.</span><span>Les réponses aux QCM ne sont pas conservées.</span></div>
+  </div>
+  <script src="campaign.js"></script>
+  <script>
+    (() => {
+      const chapters = window.CAMPAIGN || [];
+      const themes = [...new Set(chapters.map(ch => ch.theme))];
+      const $ = id => document.getElementById(id);
+      const storeKey = "atelier-campagne-v1";
+      let results = {};
+      try { results = JSON.parse(localStorage.getItem(storeKey) || "{}"); } catch (_) {}
+      let current = null;
+      let quiz = null;
+      const byId = id => chapters.find(ch => ch.id === id);
+      const chapterResult = id => results[id] || { attempts:0, best:null, last:null, passed:false };
+      function save() { try { localStorage.setItem(storeKey, JSON.stringify(results)); } catch (_) {} }
+      function passedCount(theme) { return chapters.filter(ch => ch.theme === theme && chapterResult(ch.id).passed).length; }
+      function escapeHtml(value) { return String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+      function showView(name) {
+        document.querySelectorAll("main > section[id^='view-']").forEach(el => el.classList.add("hidden"));
+        $("view-" + name).classList.remove("hidden");
+        document.querySelectorAll(".nav-button").forEach(btn => btn.classList.toggle("active", btn.dataset.view === name));
+        window.scrollTo({top:0,behavior:"smooth"});
+      }
+      function renderHome() {
+        const validated = chapters.filter(ch => chapterResult(ch.id).passed).length;
+        $("overall-progress").textContent = `${validated}/${chapters.length}`;
+        $("home-themes").innerHTML = themes.map(theme => {
+          const total = chapters.filter(ch => ch.theme === theme).length;
+          const done = passedCount(theme);
+          const pct = Math.round(done / total * 100);
+          const themeChapters = chapters.filter(ch => ch.theme === theme).map(ch => {
+            const r = chapterResult(ch.id);
+            const status = r.passed ? `Validé · ${r.best}/20` : r.attempts ? `À retenter · ${r.best}/20` : "À faire";
+            return `<button class="theme-chapter-link" data-chapter="${escapeHtml(ch.id)}">${escapeHtml(ch.title)}<span>${escapeHtml(status)}</span></button>`;
+          }).join("");
+          return `<div class="theme-group"><button class="theme-card" data-theme-open="${escapeHtml(theme)}"><strong>${escapeHtml(theme)}</strong><span>${done}/${total} validés</span><div class="mini-track"><div class="mini-fill" style="width:${pct}%"></div></div></button><details class="theme-chapters"><summary>Afficher les chapitres (${total})</summary><div class="theme-chapter-list">${themeChapters}</div></details></div>`;
+        }).join("");
+        $("home-themes").querySelectorAll("[data-theme-open]").forEach(btn => btn.addEventListener("click", () => { $("filter-theme").value = themeValue(btn.dataset.themeOpen); renderLibrary(); showView("library"); }));
+        bindChapterButtons($("home-themes"));
+        const nextChapters = themes.map(theme => chapters.find(ch => ch.theme === theme && !chapterResult(ch.id).passed)).filter(Boolean);
+        const candidates = nextChapters.length ? nextChapters : chapters.slice(0,4);
+        $("continue-list").innerHTML = candidates.map(ch => chapterButton(ch)).join("");
+        bindChapterButtons($("continue-list"));
+      }
+      function themeValue(theme) { return String(themes.indexOf(theme)); }
+      function chapterButton(ch) {
+        const r = chapterResult(ch.id);
+        const status = r.passed ? `Validé · ${r.best}/20` : r.attempts ? `À retenter · meilleur ${r.best}/20` : "À faire";
+        return `<button class="archive-item" data-chapter="${escapeHtml(ch.id)}"><span class="archive-copy"><small>${escapeHtml(ch.theme)} · ${escapeHtml(status)}</small><strong>${escapeHtml(ch.title)}</strong></span><span class="archive-arrow" aria-hidden="true">→</span></button>`;
+      }
+      function bindChapterButtons(container) { container.querySelectorAll("[data-chapter]").forEach(btn => btn.addEventListener("click", () => openChapter(btn.dataset.chapter))); }
+      function renderLibrary() {
+        const selected = $("filter-theme").value;
+        const search = $("search-chapters").value.trim().toLocaleLowerCase("fr");
+        const list = chapters.filter(ch => (selected === "all" || themeValue(ch.theme) === selected) && (!search || `${ch.title} ${ch.theme}`.toLocaleLowerCase("fr").includes(search)));
+        $("library-list").innerHTML = list.length ? list.map(ch => chapterButton(ch)).join("") : `<p class="small-note">Aucun chapitre trouvé.</p>`;
+        bindChapterButtons($("library-list"));
+      }
+      function openChapter(id) {
+        current = byId(id); if (!current) return;
+        $("dashboard").classList.add("hidden"); $("lesson-view").classList.remove("hidden");
+        const r = chapterResult(id);
+        $("lesson-eyebrow").textContent = current.theme;
+        $("lesson-heading").textContent = current.title;
+        $("chapter-kicker").textContent = `Chapitre ${chapters.filter(ch => ch.theme === current.theme).findIndex(ch => ch.id === id)+1} · ${current.theme}`;
+        $("chapter-title").textContent = current.title;
+        $("chapter-status").textContent = r.passed ? "Validé" : "11/20 pour valider";
+        $("lesson-best").textContent = r.best === null ? "—" : `${r.best}/20`;
+        $("article-theme").textContent = current.theme;
+        $("article-title").textContent = current.title;
+        $("article-copy").innerHTML = current.read.split(/\n\n+/).map(p => `<p>${escapeHtml(p)}</p>`).join("");
+        $("memory-points").innerHTML = current.facts.slice(0,3).map(([question,answer]) => `<li><strong>${escapeHtml(answer)}</strong> <span>— ${escapeHtml(question)}</span></li>`).join("");
+        const rec = current.resource;
+        $("recommendation").innerHTML = `Pour approfondir · ${escapeHtml(rec.type)} : <a href="${escapeHtml(rec.url)}" target="_blank" rel="noopener">${escapeHtml(rec.name)}</a>`;
+        resetQuiz(); showView("home");
+      }
+      function showTab(name) {
+        $("article-panel").classList.toggle("hidden", name !== "article");
+        $("quiz-panel").classList.toggle("hidden", name !== "quiz");
+        document.querySelectorAll(".tab").forEach(tab => tab.classList.toggle("active", tab.dataset.tab === name));
+        if (name === "quiz") renderQuestion();
+      }
+      function makeQuestions(chapter) {
+        return chapter.facts.map((fact, i) => {
+          const [text, answer, explain] = fact;
+          const choices = [answer];
+          for (let step=1; choices.length<4 && step<chapter.facts.length+2; step++) {
+            const candidate = chapter.facts[(i + step * 3) % chapter.facts.length][1];
+            if (!choices.includes(candidate)) choices.push(candidate);
+          }
+          // Shuffle options so the correct answer is not always in the same place.
+          for (let j=choices.length-1;j>0;j--) { const k=Math.floor(Math.random()*(j+1)); [choices[j],choices[k]]=[choices[k],choices[j]]; }
+          return {text, options:choices, answer:choices.indexOf(answer), explain};
+        });
+      }
+      function resetQuiz() {
+        if (!current) return;
+        quiz = { questions:makeQuestions(current), index:0, answers:Array(10).fill(null), submitted:false, score:0 };
+        $("quiz-result").className="result"; $("quiz-result").innerHTML="";
+        renderQuestion(); showTab("article");
+      }
+      function renderQuestion() {
+        if (!quiz) return;
+        const q = quiz.questions[quiz.index];
+        $("question-number").textContent=`Question ${quiz.index+1} / 10`;
+        $("question-text").textContent=q.text;
+        $("progress-label").textContent=`Question ${quiz.index+1} sur 10`;
+        const answered=quiz.answers.filter(v=>v!==null).length;
+        $("answered-label").textContent=`${answered} répondue${answered>1?"s":""}`;
+        $("progress-fill").style.width=`${((quiz.index+1)/10)*100}%`;
+        $("live-score").textContent=quiz.submitted?quiz.score:"…";
+        $("prev-question").disabled=quiz.index===0;
+        $("next-question").textContent=quiz.index===9?"Dernière question":"Suivante →";
+        $("next-question").disabled=quiz.index===9;
+        const container=$("options");container.innerHTML="";
+        q.options.forEach((label,i)=>{
+          const button=document.createElement("button");
+          button.className="option"+(quiz.answers[quiz.index]===i?" selected":"");button.disabled=quiz.submitted;
+          const letter=document.createElement("span");letter.className="option-letter";letter.textContent=String.fromCharCode(65+i);
+          const text=document.createElement("span");text.textContent=label;button.append(letter,text);
+          if(quiz.submitted&&i===q.answer)button.classList.add("correct");
+          if(quiz.submitted&&quiz.answers[quiz.index]===i&&i!==q.answer)button.classList.add("wrong");
+          button.addEventListener("click",()=>{if(!quiz.submitted){quiz.answers[quiz.index]=i;renderQuestion();}});
+          container.appendChild(button);
+        });
+        const feedback=$("feedback");feedback.className="feedback";
+        if(quiz.submitted){const chosen=quiz.answers[quiz.index],good=chosen===q.answer;feedback.classList.add("show",good?"good":"bad");feedback.textContent=chosen===null?`Sans réponse : 0 point. ${q.explain}`:`${good?"+2 points. Bonne réponse !":"−1 point. "+String.fromCharCode(65+q.answer)+" était la bonne réponse."} ${q.explain}`;}
+        $("finish-quiz").textContent=quiz.submitted?"Rejouer le QCM":"Terminer le chapitre";
+      }
+      function finishQuiz() {
+        if(quiz.submitted){resetQuiz();return;}
+        quiz.score=quiz.answers.reduce((sum,answer,i)=>sum+(answer===null?0:answer===quiz.questions[i].answer?2:-1),0);
+        quiz.submitted=true;
+        const old=chapterResult(current.id),wasPassed=old.passed;
+        results[current.id]={attempts:old.attempts+1,last:quiz.score,best:old.best===null?quiz.score:Math.max(old.best,quiz.score),passed:wasPassed||quiz.score>=11};
+        save();renderHome();renderQuestion();
+        const passed=quiz.score>=11;
+        $("chapter-status").textContent=results[current.id].passed?"Validé":"11/20 pour valider";
+        $("lesson-best").textContent=`${results[current.id].best}/20`;
+        $("quiz-result").className="result show";
+        $("quiz-result").innerHTML=`<div class="result-icon">${passed?"✓":"↻"}</div><h3>${passed?"Chapitre validé":"Chapitre non validé"}</h3><div class="result-score">${quiz.score} <small>/ 20</small></div><p>${passed?"Seuil atteint : 11 points.":"Seuil non atteint. Relis le chapitre avant de retenter."}</p><button class="button" id="result-retry">${passed?"Rejouer":"Retenter"}</button>`;
+        $("result-retry").addEventListener("click",resetQuiz);
+        if(!wasPassed&&passed)$("chapter-status").textContent="Validé";
+        $("quiz-result").scrollIntoView({behavior:"smooth",block:"nearest"});
+      }
+      function renderProgress() {
+        const completed=chapters.filter(ch=>chapterResult(ch.id).passed).length;
+        const attempts=chapters.reduce((n,ch)=>n+chapterResult(ch.id).attempts,0);
+        $("progress-total").textContent=`${completed} chapitre${completed>1?"s":""} validé${completed>1?"s":""} sur ${chapters.length} · ${attempts} tentative${attempts>1?"s":""}`;
+        $("progress-themes").innerHTML=themes.map(theme=>{
+          const group=chapters.filter(ch=>ch.theme===theme),done=group.filter(ch=>chapterResult(ch.id).passed).length;
+          const attempted=group.filter(ch=>chapterResult(ch.id).attempts).length;
+          const scores=group.map(ch=>chapterResult(ch.id).best).filter(v=>v!==null);
+          const avg=scores.length?(scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(1):"—";
+          return `<article class="archive-item"><span><small>${done}/${group.length} validés · ${attempted} commencés</small><strong>${escapeHtml(theme)}</strong></span><span class="archive-status">Moyenne des meilleurs : ${avg}${avg==="—"?"":"/20"}</span></article>`;
+        }).join("");
+      }
+      function init() {
+        themes.forEach((theme,i)=>{const option=document.createElement("option");option.value=String(i);option.textContent=theme;$("filter-theme").appendChild(option);});
+        document.querySelectorAll(".nav-button").forEach(btn=>btn.addEventListener("click",()=>{if(btn.dataset.view==="home"){$("dashboard").classList.remove("hidden");$("lesson-view").classList.add("hidden");}if(btn.dataset.view==="library")renderLibrary();if(btn.dataset.view==="progress")renderProgress();showView(btn.dataset.view);}));
+        document.querySelectorAll(".tab").forEach(tab=>tab.addEventListener("click",()=>showTab(tab.dataset.tab)));
+        $("start-quiz").addEventListener("click",()=>{showTab("quiz");window.scrollTo({top:0,behavior:"smooth"});});
+        $("prev-question").addEventListener("click",()=>{if(quiz.index>0){quiz.index--;renderQuestion();}});
+        $("next-question").addEventListener("click",()=>{if(quiz.index<9){quiz.index++;renderQuestion();}});
+        $("finish-quiz").addEventListener("click",finishQuiz);
+        $("back-home").addEventListener("click",()=>{$("lesson-view").classList.add("hidden");$("dashboard").classList.remove("hidden");renderHome();window.scrollTo({top:0,behavior:"smooth"});});
+        $("search-chapters").addEventListener("input",renderLibrary);$("filter-theme").addEventListener("change",renderLibrary);
+        $("brand-home").addEventListener("click",e=>{e.preventDefault();$("lesson-view").classList.add("hidden");$("dashboard").classList.remove("hidden");renderHome();showView("home");});
+        renderHome();renderLibrary();
+      }
+      init();
+    })();
+  </script>
+</body>
+</html>
